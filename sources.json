@@ -1,0 +1,33 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {"source": "app/assistants/cookie.js"},
+    {"source": "app/assistants/dialogs.js"},
+    {
+        "scenes": "main",
+        "source": "app/assistants/main-assistant.js"
+    },
+    {
+        "scenes": "about",
+        "source": "app/assistants/about-assistant.js"
+    },
+    {
+        "scenes": "howto",
+        "source": "app/assistants/howto-assistant.js"
+    },
+    {
+        "scenes": "records",
+        "source": "app/assistants/records-assistant.js"
+    },  
+    {
+        "scenes": "tutorial",
+        "source": "app/assistants/tutorial-assistant.js"
+    },
+    {
+        "scenes": "help",
+        "source": "app/assistants/help-assistant.js"
+    },
+    {
+        "scenes": "game",
+        "source": "app/assistants/game-assistant.js"
+    }
+]

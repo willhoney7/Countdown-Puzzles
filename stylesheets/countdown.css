@@ -1,0 +1,208 @@
+.item {
+	float: left;
+    background-image: url(../images/box.png);
+    text-align: center;
+	width: 53px;
+	line-height: 53px;
+	vertical-align: middle;
+	height: 53px;
+}
+.item._1 {
+    background-image: url(../images/one.png);
+}
+.item._2 {
+    background-image: url(../images/two.png);
+}
+.item._3 {
+    background-image: url(../images/three.png);
+}
+
+.click{
+    background-color: silver;
+    background-image: none;
+    text-align: center;
+}
+td  {
+    background-image: url(../images/box.png);
+    text-align: center;
+	width: 53px;
+	line-height: 53px;
+	vertical-align: middle;
+	height: 53px;
+}
+tr {
+    height: 53px;
+}
+table {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.label {
+    background-image: none;
+    text-align: inherit;
+}
+#howto {
+    padding-top: 0em;
+}
+
+#title {
+    color: silver;
+}
+
+#transparent{
+    background-image: none;
+    background-color: transparent;
+    color: #393e43;
+}
+
+#mainScene {
+   background-image: url(../images/countdown.png);
+}
+
+.palm-dark .palm-page-header.multi-line .title {
+  color: white;
+  text-shadow: #000 0px -1px 0px;
+}
+
+.img_web {
+   position:relative;
+   left:8px;
+   top:10px;
+   width:32px; 
+   height:32px;
+   background: url(../images/web.png) no-repeat  bottom;
+   padding: 0px 0px 0px 5px;
+   float:left;
+}
+.img_email {
+   position:relative;
+   left:8px;
+   top:10px;
+   width:32px; 
+   height:32px;
+   background: url(../images/email.png) no-repeat bottom;
+   vertical-align:bottom;
+   padding: 0px 0px 0px 5px;
+   float:left;
+}
+.img_icon {
+   position:absolute;
+   left:10px;
+   top:5px;
+   width:32px; 
+   height:32px;
+   background: url(../smallicon.png) no-repeat center ;
+   padding: 10px 0px 0px 5px;
+   float:left;	
+}
+
+
+#divider {
+    background: url(../images/palm-divider-line-dark.png) bottom left no-repeat; /* bevel shadow and highlight at bottom */
+}
+.visibleright{
+    
+ float: right;
+}
+
+.visiblerightpixi{
+ float: right; visibility: hidden; display: none;
+}
+.palm-group {
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-bottom: 0px;
+  margin-top: 3px;
+}
+
+.palm-row.speciall {
+    margin-top: -6px;
+    margin-bottom: -20px;
+    padding-top: 0px;
+    
+}
+    
+.palm-menu-icon.undo {
+    background-image: url(../images/menu-icon-undo.png);
+}
+
+.palm-menu-icon.thumbsup {
+    background-image: url(../images/thumbs-up.png);
+}
+
+.palm-menu-icon.thumbsdown {
+    background-image: url(../images/thumbs-down.png);
+}
+
+.palm-menu-icon.play {
+    background-image: url(../images/menu-icon-play.png);
+}
+
+.palm-radiobutton {
+  clear: both;
+  margin: 10px 4px 10px 4px;
+  height: 50px;
+  min-width: 295px;
+}
+
+.palm-radiobutton div {
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #555555;
+  vertical-align: middle;
+  line-height: 50px;
+  -webkit-user-select: none;
+  height: 50px;
+  display: block;
+  border-width: 0 15px 0 15px;
+  -webkit-border-image: url(../images/radiobutton-middle.png) 0 15 100 15 repeat repeat;
+  -webkit-box-sizing: border-box;
+}
+
+.palm-radiobutton div.first {
+  -webkit-border-image: url(../images/radiobutton-first.png) 0 15 100 15 repeat repeat;
+}
+
+.palm-radiobutton div.last {
+  -webkit-border-image: url(../images/radiobutton-last.png) 0 15 100 15 repeat repeat;
+}
+
+.palm-radiobutton div.selected {
+  color: white;
+  font-weight: bold;
+  -webkit-border-image: url(../images/radiobutton-middle.png) 50 15 50 15 repeat repeat;
+}
+
+.palm-radiobutton div.first.selected {
+  -webkit-border-image: url(../images/radiobutton-first.png) 50 15 50 15 repeat repeat;
+}
+
+.palm-radiobutton div.last.selected {
+  -webkit-border-image: url(../images/radiobutton-last.png) 50 15 50 15 repeat repeat;
+}
+
+.palm-radiobutton.two div {
+  width: 50%;
+}
+
+.palm-radiobutton.three div {
+  width: 104px;
+}
+
+#puzzletitle {
+    color: white;
+}
+
+#preview {
+    padding-bottom: 0em;
+    padding-left: 0em;
+    padding-right: 0px;
+    margin: 5px 0px 0px 5px;
+    text-shadow: #000;
+
+}
+
+.label.score {
+}
