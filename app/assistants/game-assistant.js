@@ -82,7 +82,10 @@ GameAssistant.prototype.setup = function() {
 	}.bind(this));
 };
 GameAssistant.prototype.setupGameVar = function(event) {
-	this.game = [{num: 0, index: 0},{num: 0, index: 1},{num: 0, index: 2},{num: 0, index: 3},{num: 0, index: 4},{num: 0, index: 5},{num: 0, index: 6},{num: 0, index: 7},{num: 0, index: 8},{num: 0, index: 9},{num: 0, index: 10},{num: 0, index: 11},{num: 0, index: 12},{num: 0, index: 13},{num: 0, index: 14},{num: 0, index: 15},{num: 0, index: 16},{num: 0, index: 17},{num: 0, index: 18},{num: 0, index: 19},{num: 0, index: 20},{num: 0, index: 21},{num: 0, index: 22},{num: 0, index: 23},{num: 0, index: 24},{num: 0, index: 25},{num: 0, index: 26},{num: 0, index: 27},{num: 0, index: 28},{num: 0, index: 29},{num: 0, index: 30},{num: 0, index: 31},{num: 0, index: 32},{num: 0, index: 33},{num: 0, index: 34},{num: 0, index: 35}];
+	this.game = [];
+	for (var i = 0; i < 36; i++) {
+		this.game.push({num: 0});
+	};
 	this.moves = [];
 }
 GameAssistant.prototype.newGame = function(custom) {
@@ -230,7 +233,7 @@ GameAssistant.prototype.checkComplete = function(event) {
 					this.newGame();
 					this.completedCount++;
 					
-					//have to use old method so users can keep their data. too lazy to create data mirgrater :)
+					//have to use old method so users can keep their data. too lazy to create data migrater :)
 					if(this.difficulty == 5){
 						CountdownStats.bw++;
 						}
@@ -256,7 +259,7 @@ GameAssistant.prototype.checkComplete = function(event) {
 					this.newGame();
 					this.completedCount++;
 					
-					//have to use old method so users can keep their data. too lazy to create data mirgrater :)
+					//have to use old method so users can keep their data. too lazy to create data migrater :)
 					if(this.difficulty == 5){
 						CountdownStatsL.bw++;
 						}
